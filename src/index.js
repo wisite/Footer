@@ -1,5 +1,3 @@
-import '../assets/index.less';
-
 class Footer extends React.Component {
   render() {
     const year = new Date().getFullYear();
