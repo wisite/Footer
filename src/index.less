@@ -1,3 +1,46 @@
-.neo-nav {
+.neo-footer {
+	background: #2d3e50;
+	color: #ddd;
 	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	.neo-footer-links {
+		flex-basis: 60%;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		padding-left: 20%;
+		flex-wrap: wrap;
+		a {
+			color: white;
+			text-decoration: none;
+			margin-right: 2em;
+			&:hover {
+				color: #cc0000;
+			}
+		}
+	}
+	.neo-footer-pic {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		flex-basis: 40%;
+		padding: 1em 0;
+		img {
+			width: 80px;
+			height: 80px;
+		}
+		& > span {
+			margin-top: 10px;
+		}
+	}
+	.neo-footer-copy {
+		background: #1b2735;
+		height: 3em;
+		line-height: 3em;
+		color: #bbb;
+		text-align: center;
+		flex-basis: 100%;
+	}
 }
