@@ -1,3 +1,4 @@
+import '../assets/index.less';
 
 class Footer extends React.Component {
   render() {
