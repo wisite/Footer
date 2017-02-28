@@ -5,10 +5,9 @@ class Footer extends React.Component {
     return (
       <div className="neo-footer">
         <div className="neo-footer-links">
-          <a href="#">官方微博</a>
-          <a href="#">微信公众号</a>
-          <a href="#">友情连接1</a>
-          <a href="#">友情连接2</a>
+          <a href="//digitalocean.com">DigitalOcean</a>
+          <a href="//aliyun.com">阿里云主机</a>
+          <a href="//wanwang.aliyun.com">中国万网</a>
         </div>
         <div className="neo-footer-pic">
           <img src="images/wechat.png" />
